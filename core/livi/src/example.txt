@@ -1,0 +1,7 @@
+g++ -shared -o megalib.so foo.o bar.o -la_static_lib -lb_static_lib
+
+make .so:
+g++ -c -Wall -Werror -fpic main.cpp
+gcc -shared -o cpplib.so main.o
+Homebrew:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&

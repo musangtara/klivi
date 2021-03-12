@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <pthread.h>
-#define True true
-#define number int
+#ifdef true
+#define start "\n"
+int* ptr;
 
 
-#pragma endregion
-
+#define end "\n"
