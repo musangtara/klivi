@@ -1,5 +1,4 @@
 <h1> Klivi </h1>
-<hr/>
 <div align="center">
     <img src="./res/logo.png">
 </div>
